@@ -1,0 +1,2229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>自然数幂和问题 - 究尽数学</title>
+<meta charset="UTF-8">
+<base target="_blank">
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+        
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+<!-- 用MathJax渲染公式 -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+            <img class="logo" src="../../img/jj_Math_LOGO.png" height="150px">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">究尽数学</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    首页
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#初中-collapse" aria-expanded="false">
+                    初中
+                </a>
+                <div class="collapse" id="初中-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%9C%89%E7%90%86%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            有理数
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%95%B4%E5%BC%8F%E7%9A%84%E5%8A%A0%E5%87%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            整式的加减
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%B8%80%E5%85%83%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            一元一次方程
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%87%A0%E4%BD%95%E5%9B%BE%E5%BD%A2%E5%88%9D%E6%AD%A5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            几何图形初步
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E7%9B%B8%E4%BA%A4%E7%BA%BF%E4%B8%8E%E5%B9%B3%E8%A1%8C%E7%BA%BF/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            相交线与平行线
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%AE%9E%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            实数
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            平面直角坐标系
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%BA%8C%E5%85%83%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B%E7%BB%84/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            二元一次方程组
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%BB%84/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            不等式与不等式组
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%95%B0%E6%8D%AE%E7%9A%84%E6%94%B6%E9%9B%86%E3%80%81%E6%95%B4%E7%90%86%E4%B8%8E%E6%8F%8F%E8%BF%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            数据的收集、整理与描述
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%B8%89%E8%A7%92%E5%BD%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            三角形
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%85%A8%E7%AD%89%E4%B8%89%E8%A7%92%E5%BD%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            全等三角形
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E8%BD%B4%E5%AF%B9%E7%A7%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            轴对称
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%95%B4%E5%BC%8F%E7%9A%84%E4%B9%98%E6%B3%95%E4%B8%8E%E5%9B%A0%E5%BC%8F%E5%88%86%E8%A7%A3/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            整式的乘法与因式分解
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%88%86%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            分式
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%BA%8C%E6%AC%A1%E6%A0%B9%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            二次根式
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            勾股定理
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            平行四边形
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            一次函数
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%95%B0%E6%8D%AE%E7%9A%84%E5%88%86%E6%9E%90/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            数据的分析
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            一元二次方程
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            二次函数
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%97%8B%E8%BD%AC/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            旋转
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%9C%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            圆
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%A6%82%E7%8E%87%E5%88%9D%E6%AD%A5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            概率初步
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E5%8F%8D%E6%AF%94%E4%BE%8B%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            反比例函数
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E7%9B%B8%E4%BC%BC/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            相似
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E9%94%90%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            锐角三角形
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%A7%86%E5%9B%BE/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            投影与视图
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#高中-collapse" aria-expanded="false">
+                    高中
+                </a>
+                <div class="collapse" id="高中-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            简介
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#必修-collapse" aria-expanded="false">
+            必修
+        </a>
+
+        <div class="collapse" id="必修-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E9%9B%86%E5%90%88/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            集合
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            等式与不等式
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            函数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E6%8C%87%E6%95%B0%E5%87%BD%E6%95%B0%E3%80%81%E5%AF%B9%E6%95%B0%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B9%82%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            指数函数、对数函数与幂函数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E7%BB%9F%E8%AE%A1%E4%B8%8E%E6%A6%82%E7%8E%87/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            统计与概率
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E5%B9%B3%E9%9D%A2%E5%90%91%E9%87%8F%E5%88%9D%E6%AD%A5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            平面向量初步
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            三角函数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E5%90%91%E9%87%8F%E7%9A%84%E6%95%B0%E9%87%8F%E7%A7%AF%E4%B8%8E%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%8F%98%E6%8D%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            向量的数量积与三角恒等变换
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E8%A7%A3%E4%B8%89%E8%A7%92%E5%BD%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            解三角形
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E5%A4%8D%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            复数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E5%BF%85%E4%BF%AE/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E5%88%9D%E6%AD%A5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            立体几何初步
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#选修-collapse" aria-expanded="false">
+            选修
+        </a>
+
+        <div class="collapse" id="选修-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E7%A9%BA%E9%97%B4%E5%90%91%E9%87%8F%E4%B8%8E%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            空间向量与立体几何
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E5%B9%B3%E9%9D%A2%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            平面解析几何
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E6%8E%92%E5%88%97%E3%80%81%E7%BB%84%E5%90%88%E4%B8%8E%E4%BA%8C%E9%A1%B9%E5%BC%8F%E5%AE%9A%E7%90%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            排列、组合与二项式定理
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            概率与统计
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E6%95%B0%E5%88%97/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            数列
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../Senior/%E9%80%89%E4%BF%AE/%E5%AF%BC%E6%95%B0%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            导数及其应用
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#大学-collapse" aria-expanded="false">
+                    大学
+                </a>
+                <div class="collapse" id="大学-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            简介
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#高等数学-collapse" aria-expanded="false">
+            高等数学
+        </a>
+
+        <div class="collapse" id="高等数学-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            极限与连续
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            导数与微分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            一元函数微分学的应用
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            不定积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AE%9A%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            定积分及其应用
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            多元函数微分学
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            微分方程
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E9%87%8D%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            重积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%BA%A7%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            级数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            空间解析几何
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            曲线积分与曲面积分
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#线性代数-collapse" aria-expanded="false">
+            线性代数
+        </a>
+
+        <div class="collapse" id="线性代数-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E8%A1%8C%E5%88%97%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            行列式
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%9F%A9%E9%98%B5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            矩阵及其运算
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            矩阵的初等变换与线性方程组
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E5%90%91%E9%87%8F%E7%BB%84/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            向量组的线性相关性
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%9B%B8%E4%BC%BC%E7%9F%A9%E9%98%B5%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            相似矩阵及二次型
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            线性空间与线性变换
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#数学分析-collapse" aria-expanded="false">
+            数学分析
+        </a>
+
+        <div class="collapse" id="数学分析-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%AE%9E%E6%95%B0%E9%9B%86%E4%B8%8E%E5%87%BD%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            实数集与函数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            数列极限
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            函数极限
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%80%A7/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            函数的连续性
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%AF%BC%E6%95%B0%E5%92%8C%E5%BE%AE%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            导数和微分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            微分中值定理及其应用
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%AE%9E%E6%95%B0%E7%9A%84%E5%AE%8C%E5%A4%87%E6%80%A7/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            实数的完备性
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            不定积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%AE%9A%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            定积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%AE%9A%E7%A7%AF%E5%88%86%E7%9A%84%E5%BA%94%E7%94%A8/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            定积分的应用
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            反常积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            数项级数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%87%BD%E6%95%B0%E5%88%97%E4%B8%8E%E5%87%BD%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            函数列与函数项级数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%B9%82%E7%BA%A7%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            幂级数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%82%85%E9%87%8C%E5%8F%B6%E7%BA%A7%E6%95%B0/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            傅里叶级数
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            多元函数的极限与连续
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            多元函数微分学
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E9%9A%90%E5%87%BD%E6%95%B0%E5%AE%9A%E7%90%86%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            隐函数定理及其应用
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E5%90%AB%E5%8F%82%E9%87%8F%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            含参量积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            曲线积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E9%87%8D%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            重积分
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            曲面积分
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#高等代数-collapse" aria-expanded="false">
+            高等代数
+        </a>
+
+        <div class="collapse" id="高等代数-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E5%A4%9A%E9%A1%B9%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            多项式
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%A1%8C%E5%88%97%E5%BC%8F/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            行列式
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            线性方程组
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E7%9F%A9%E9%98%B5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            矩阵
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E4%BA%8C%E6%AC%A1%E5%9E%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            二次型
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            线性空间
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            线性变换
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%CE%BB-%E7%9F%A9%E9%98%B5/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            λ-矩阵
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%A9%BA%E9%97%B4/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            欧几里得空间
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../University/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E5%8F%8C%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E8%BE%9B%E7%A9%BA%E9%97%B4/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            双线性空间与辛空间
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#学习方法-collapse" aria-expanded="false">
+                    学习方法
+                </a>
+                <div class="collapse" id="学习方法-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Learn/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            中学生，如何学数学
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#大师启示录-collapse" aria-expanded="false">
+                    大师启示录
+                </a>
+                <div class="collapse" id="大师启示录-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Master/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            简介
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Master/%E5%A4%A7%E5%B8%88%E5%90%AF%E7%A4%BA%E5%BD%95/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            大师启示录
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#探索式学习-collapse" aria-expanded="false">
+                    探索式学习
+                </a>
+                <div class="collapse" id="探索式学习-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            简介
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            自然数幂和问题
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../n%E8%BE%B9%E5%BD%A2%E9%9D%A2%E7%A7%AF/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            面积公式的发展简史
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../%E6%96%B9%E7%A8%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            方程
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../%E5%B0%BA%E8%A7%84%E4%BD%9C%E5%9B%BE/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            尺规作图
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#思想+思维+方法-collapse" aria-expanded="false">
+                    思想+思维+方法
+                </a>
+                <div class="collapse" id="思想+思维+方法-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Thought/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            如何构建数学知识体系？
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#数学追求一般化-collapse" aria-expanded="false">
+                    数学追求一般化
+                </a>
+                <div class="collapse" id="数学追求一般化-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../General/%E7%AE%80%E4%BB%8B/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            简介
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../about/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    About
+                </a>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../%E7%AE%80%E4%BB%8B/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../n%E8%BE%B9%E5%BD%A2%E9%9D%A2%E7%A7%AF/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item">
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="_1">自然数幂和问题</h1>
+<hr/>
+<p>对于正整数<span><span class="MathJax_Preview">\(n\)</span><script type="math/tex">n</script></span>，证明：</p>
+<p>
+<div><span class="MathJax_Preview">$$1^2+2^2+3^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1)$$</span><script type="math/tex; mode=display">1^2+2^2+3^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1)</script>
+</div>
+</p>
+<p>对于这种仅与一个自然数<span><span class="MathJax_Preview">\(n\)</span><script type="math/tex">n</script></span>有关的命题，想到使用数学归纳法，似乎是很自然的事情！事实上，使用第一数学归纳法，也很容易证明上面的等式。</p>
+<p><img alt="" src="../../img/7%E7%B1%BB%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95.png"/></p>
+<p>【<strong>证明</strong>】<span><span class="MathJax_Preview">\(n=1\)</span><script type="math/tex">n=1</script></span>时，明显等式成立；假设<span><span class="MathJax_Preview">\(n=k\)</span><script type="math/tex">n=k</script></span>时，等式成立；那么</p>
+<p>
+<div><span class="MathJax_Preview">$$\begin{aligned}1^2+2^2+3^2+\cdots+k^2+(k+1)^2&amp;=\frac{1}{6}k(k+1)(2k+1)+(k+1)^2\\ &amp;=\frac{1}{6}(k+1)(k+2)(2k+3)\end{aligned}$$</span><script type="math/tex; mode=display">\begin{aligned}1^2+2^2+3^2+\cdots+k^2+(k+1)^2&=\frac{1}{6}k(k+1)(2k+1)+(k+1)^2\\ &=\frac{1}{6}(k+1)(k+2)(2k+3)\end{aligned}</script>
+</div>
+</p>
+<p>所以<span><span class="MathJax_Preview">\(n=k+1\)</span><script type="math/tex">n=k+1</script></span>时命题成立。</p>
+<h3 id="_2">问题</h3>
+<p>命题的难度不在证明，证明之前，公式是如何获取到的？如果把上述等式右边的结果擦除，归纳法证明似乎就没有方向了，问题转化为计算，计算出下面的级数和：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+1^2+2^2+3^2+\cdots+n^2&amp;=?\\
+1^3+2^3+3^3+\cdots+n^3&amp;=?\\
+\cdots
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+1^2+2^2+3^2+\cdots+n^2&=?\\
+1^3+2^3+3^3+\cdots+n^3&=?\\
+\cdots
+\end{aligned}
+</script>
+</div>
+</p>
+<p>问题可描述为：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^m+2^m+3^m+\cdots+n^m=? \quad for (m,n\in N^+)
+$$</span><script type="math/tex; mode=display">
+1^m+2^m+3^m+\cdots+n^m=? \quad for (m,n\in N^+)
+</script>
+</div>
+</p>
+<h3 id="_3">历史成果</h3>
+<p>这个问题，就是著名的“自然数幂和问题”。自古希腊时期开始，数学家就对“自然数幂和问题”，有着浓厚的兴趣。不同时期，不同地区的数学家分别得到过一些零散的结果。阿基米德在计算抛物线图形面积时，求得了自然数平方和公式：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}
+$$</span><script type="math/tex; mode=display">
+1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}
+</script>
+</div>
+</p>
+<p>古希腊数学家尼克梅切斯给出了：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^3+2^3+\cdots+n^3=\frac{n^2(n+1)^2}{4}
+$$</span><script type="math/tex; mode=display">
+1^3+2^3+\cdots+n^3=\frac{n^2(n+1)^2}{4}
+</script>
+</div>
+</p>
+<p>古印度数学家阿耶波多独立的给出了：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6},\quad 1^3+2^3+\cdots+n^3=\frac{n^2(n+1)^2}{4}
+$$</span><script type="math/tex; mode=display">
+1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6},\quad 1^3+2^3+\cdots+n^3=\frac{n^2(n+1)^2}{4}
+</script>
+</div>
+</p>
+<p>11世纪阿拉伯数学家花拉子密给出：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^{4}+2^{4}+3^{4}+\cdots+n^{4} =\frac{1}{30} n(n+1)(2 n+1)(3 n^{2}+3 n-1)
+$$</span><script type="math/tex; mode=display">
+1^{4}+2^{4}+3^{4}+\cdots+n^{4} =\frac{1}{30} n(n+1)(2 n+1)(3 n^{2}+3 n-1)
+</script>
+</div>
+</p>
+<p>1834年，雅克比首先给出上述“n个连续正整数的平方和和立方和”的严格证明。伴随着数学的发展，以及人们认知水平的提高，可以借助更多的知识、工具去解决该问题。我通过自己思考，外加查阅文献，归纳了不同的方法，涵盖了初等和高等数学。</p>
+<p><img alt="" src="../../img/%E8%87%AA%E7%84%B6%E6%95%B0%E5%B9%82%E5%92%8C%E9%97%AE%E9%A2%98.png"/></p>
+<hr/>
+<h2 id="_4">因式分解的方法</h2>
+<hr/>
+<p>首先，利用“因式分解”的办法，对低次的情形，进行考虑。</p>
+<h3 id="m1m1"><span><span class="MathJax_Preview">\(m=1\)</span><script type="math/tex">m=1</script></span></h3>
+<p>求：<span><span class="MathJax_Preview">\(1+2+3+\cdots+n\)</span><script type="math/tex">1+2+3+\cdots+n</script></span></p>
+<p>10岁的高斯就给过一个巧妙的计算。注意到，此时恰好为等差数列。</p>
+<h3 id="m2m2"><span><span class="MathJax_Preview">\(m=2\)</span><script type="math/tex">m=2</script></span></h3>
+<p>等差数列前<span><span class="MathJax_Preview">\(n\)</span><script type="math/tex">n</script></span>项和：<span><span class="MathJax_Preview">\(1+3+5+\cdots+(2n-1)=n^2\)</span><script type="math/tex">1+3+5+\cdots+(2n-1)=n^2</script></span></p>
+<p>计算：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^2+2^2+\cdots+n^2=?
+$$</span><script type="math/tex; mode=display">
+1^2+2^2+\cdots+n^2=?
+</script>
+</div>
+</p>
+<p>记</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+a_n &amp;=1^2+2^2+\cdots+n^2\\
+&amp;=1+(1+3)+\cdots+[1+3+5+\cdots+(2n-1)]\\
+&amp;=n+3(n-1)+5(n-2)+\cdots+(2n-3)2+(2n-1)\\
+&amp;=n+3n+5n+\cdots+(2n-1)n-[3+5\times2+\cdots+(2n-1)(n-1)]\\
+&amp;=n[1+3+5+\cdots+(2n-1)]-[3+5\times2+\cdots+(2n-1)(n-1)]\\
+&amp;=n^3-[3+3\times2+2^2+3\times4+3^2+\cdots+(n-1)n+(n-1)^2]\\
+&amp;=n^3-[3+1\times2+2\times2^2+3\times1+2\times3^2+\cdots+(n-1)^2+2(n-1)^2]\\
+&amp;=n^3-\{3+2+3+\cdots+(n-1)+2[2^2+3^2+\cdots+(n-1)^2]\}\\
+&amp;=n^3-\{1+2+3+\cdots+(n-1)+2[1+2^2+3^2+\cdots+(n-1)^2]\}\\
+&amp;=n^3-\frac{n(n-1)}{2}-2[1+2^2+3^2+\cdots+(n-1)^2]\\
+&amp;=n^3-\frac{n(n-1)}{2}-2a_{n-1}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+a_n &=1^2+2^2+\cdots+n^2\\
+&=1+(1+3)+\cdots+[1+3+5+\cdots+(2n-1)]\\
+&=n+3(n-1)+5(n-2)+\cdots+(2n-3)2+(2n-1)\\
+&=n+3n+5n+\cdots+(2n-1)n-[3+5\times2+\cdots+(2n-1)(n-1)]\\
+&=n[1+3+5+\cdots+(2n-1)]-[3+5\times2+\cdots+(2n-1)(n-1)]\\
+&=n^3-[3+3\times2+2^2+3\times4+3^2+\cdots+(n-1)n+(n-1)^2]\\
+&=n^3-[3+1\times2+2\times2^2+3\times1+2\times3^2+\cdots+(n-1)^2+2(n-1)^2]\\
+&=n^3-\{3+2+3+\cdots+(n-1)+2[2^2+3^2+\cdots+(n-1)^2]\}\\
+&=n^3-\{1+2+3+\cdots+(n-1)+2[1+2^2+3^2+\cdots+(n-1)^2]\}\\
+&=n^3-\frac{n(n-1)}{2}-2[1+2^2+3^2+\cdots+(n-1)^2]\\
+&=n^3-\frac{n(n-1)}{2}-2a_{n-1}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>联立关系式，得到二元一次方程组</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{cases}
+a_n=a_{n-1}+n^2\\
+a_n=n^3-\frac{1}{2}n\cdot(n-1)-2a_{n-1}
+\end{cases}
+$$</span><script type="math/tex; mode=display">
+\begin{cases}
+a_n=a_{n-1}+n^2\\
+a_n=n^3-\frac{1}{2}n\cdot(n-1)-2a_{n-1}
+\end{cases}
+</script>
+</div>
+</p>
+<p>解方程组，可得：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+a_n=\frac{1}{6}n(n+1)(2n+1)
+$$</span><script type="math/tex; mode=display">
+a_n=\frac{1}{6}n(n+1)(2n+1)
+</script>
+</div>
+</p>
+<p>需要注意到：其隐藏的递推关系式！</p>
+<h3 id="m3m3"><span><span class="MathJax_Preview">\(m=3\)</span><script type="math/tex">m=3</script></span></h3>
+<p>【<strong>立方和公式</strong>】</p>
+<p>
+<div><span class="MathJax_Preview">$$
+a^3+b^3=(a+b)(a^2-ab+b^2)
+$$</span><script type="math/tex; mode=display">
+a^3+b^3=(a+b)(a^2-ab+b^2)
+</script>
+</div>
+</p>
+<p>利用立方和，因式分解</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+&amp;1^3+2^3+\cdots+n^3 \\
+&amp;=\frac{1}{2}[(1^3+2^3+\cdots+n^3)+(1^3+2^3+\cdots+n^3)]\\
+&amp;=\frac{1}{2}\{(n+1)(n^2-n+1)+(n-1+2)[(n-1)^2-(n-1)+2^2]+\cdots+(1+n)(1-n+n^2)\}\\
+&amp;=\frac{1}{2}(n+1)\{2+2\times2^2+\cdots+2\times{n^2}-[1\times n+2(n-1)+\cdots+n\times{1}]\}\\
+&amp;=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-(1^2+2^2+\cdots+n^2)-[1\times n+2(n-1)+\cdots+n\times{1}]\}\\
+&amp;=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-\frac{1}{2}[(1+n)^2+(2+n-1)^2+\cdots+(n+1)^2]\}\\
+&amp;=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-\frac{1}{2}n(n+1)^2\}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+&1^3+2^3+\cdots+n^3 \\
+&=\frac{1}{2}[(1^3+2^3+\cdots+n^3)+(1^3+2^3+\cdots+n^3)]\\
+&=\frac{1}{2}\{(n+1)(n^2-n+1)+(n-1+2)[(n-1)^2-(n-1)+2^2]+\cdots+(1+n)(1-n+n^2)\}\\
+&=\frac{1}{2}(n+1)\{2+2\times2^2+\cdots+2\times{n^2}-[1\times n+2(n-1)+\cdots+n\times{1}]\}\\
+&=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-(1^2+2^2+\cdots+n^2)-[1\times n+2(n-1)+\cdots+n\times{1}]\}\\
+&=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-\frac{1}{2}[(1+n)^2+(2+n-1)^2+\cdots+(n+1)^2]\}\\
+&=\frac{1}{2}(n+1)\{3(1^2+2^2+\cdots+n^2)-\frac{1}{2}n(n+1)^2\}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>把<span><span class="MathJax_Preview">\(m=2\)</span><script type="math/tex">m=2</script></span>的结果代入，可得：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^3+2^3+3^3+\cdots+n^3=\frac{1}{4}n^2(n+1)^2
+$$</span><script type="math/tex; mode=display">
+1^3+2^3+3^3+\cdots+n^3=\frac{1}{4}n^2(n+1)^2
+</script>
+</div>
+</p>
+<p>【<strong>新问题</strong>】随着<span><span class="MathJax_Preview">\(m\)</span><script type="math/tex">m</script></span>的增大，因式分解的难度越来越大！用到的知识点虽然不多，但是其技巧性特别地强，方法也不具有一般性，不能用于解决更高次的情形。对于更一般的情形，因式分解似乎不是一个好办法！</p>
+<hr/>
+<h2 id="_5">费马的方法</h2>
+<hr/>
+<p>1638年，费马注意到公式</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+\sum_{k=1}^n\frac{k}{1}&amp;=\frac{n(n+1)}{2\times 1}\\
+\sum_{k=1}^n\frac{k(k+1)}{2\times 1}&amp;=\frac{n(n+1)(n+2)}{3\times2\times 1}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{k=1}^n\frac{k}{1}&=\frac{n(n+1)}{2\times 1}\\
+\sum_{k=1}^n\frac{k(k+1)}{2\times 1}&=\frac{n(n+1)(n+2)}{3\times2\times 1}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>于是费马做了一个类比，得到</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{k=1}^n\frac{k(k+1)(k+2)}{3\times 2\times 1}=\frac{n(n+1)(n+2)(n+3)}{4\times 3\times2\times 1}
+$$</span><script type="math/tex; mode=display">
+\sum_{k=1}^n\frac{k(k+1)(k+2)}{3\times 2\times 1}=\frac{n(n+1)(n+2)(n+3)}{4\times 3\times2\times 1}
+</script>
+</div>
+</p>
+<h3 id="_6">费马猜想</h3>
+<p>通过对上述类比得到的结果，进行正确性的证明后，费马进一步通过类比得到更一般的猜想。对于正整数<span><span class="MathJax_Preview">\(m\geq 2\)</span><script type="math/tex">m\geq 2</script></span>，费马得到一个恒等式：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{\sum_{r=1}^n\frac{r(r+1)(r+2)\cdots(r+m-1)}{m!}=\frac{n(n+1)(n+2)\cdots(n+m)}{(m+1)!}}
+$$</span><script type="math/tex; mode=display">
+\boxed{\sum_{r=1}^n\frac{r(r+1)(r+2)\cdots(r+m-1)}{m!}=\frac{n(n+1)(n+2)\cdots(n+m)}{(m+1)!}}
+</script>
+</div>
+</p>
+<p>上述式子可以通过数学归纳法来给出证明。下面就是应用这个等式，去计算自然数幂和。</p>
+<h3 id="m2m2_1">应用：<span><span class="MathJax_Preview">\(m=2\)</span><script type="math/tex">m=2</script></span></h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{r=1}^n\frac{r(r+1)}{2\times 1}=\frac{n(n+1)(n+2)}{6}
+$$</span><script type="math/tex; mode=display">
+\sum_{r=1}^n\frac{r(r+1)}{2\times 1}=\frac{n(n+1)(n+2)}{6}
+</script>
+</div>
+</p>
+<p>也即</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\frac{1}{2}(\sum_{r=1}^nr^2+\sum_{r=1}^nr)=\frac{n(n+1)(n+2)}{6}
+$$</span><script type="math/tex; mode=display">
+\frac{1}{2}(\sum_{r=1}^nr^2+\sum_{r=1}^nr)=\frac{n(n+1)(n+2)}{6}
+</script>
+</div>
+</p>
+<p>由<span><span class="MathJax_Preview">\(m=1\)</span><script type="math/tex">m=1</script></span>可求出</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{r=1}^nr=\frac{n(n+1)}{2}
+$$</span><script type="math/tex; mode=display">
+\sum_{r=1}^nr=\frac{n(n+1)}{2}
+</script>
+</div>
+</p>
+<p>联立两个式子</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{cases}
+\sum_{r=1}^nr=\frac{n(n+1)}{2}\\
+\frac{1}{2}(\sum_{r=1}^nr^2+\sum_{r=1}^nr)=\frac{n(n+1)(n+2)}{6}
+\end{cases}
+$$</span><script type="math/tex; mode=display">
+\begin{cases}
+\sum_{r=1}^nr=\frac{n(n+1)}{2}\\
+\frac{1}{2}(\sum_{r=1}^nr^2+\sum_{r=1}^nr)=\frac{n(n+1)(n+2)}{6}
+\end{cases}
+</script>
+</div>
+</p>
+<p>把第一个式子代入第二个式子可得。</p>
+<h3 id="m3m3_1">应用：<span><span class="MathJax_Preview">\(m=3\)</span><script type="math/tex">m=3</script></span></h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{r=1}^n\frac{r(r+1)(r+2)}{3\times 2\times 1}=\frac{n(n+1)(n+2)(n+3)}{24}
+$$</span><script type="math/tex; mode=display">
+\sum_{r=1}^n\frac{r(r+1)(r+2)}{3\times 2\times 1}=\frac{n(n+1)(n+2)(n+3)}{24}
+</script>
+</div>
+</p>
+<p>而</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{r=1}^n\frac{r(r+1)(r+2)}{3\times 2\times 1}=\frac{1}{6}(\sum_{r=1}^nr^3+3\sum_{r=1}^nr^2+\sum_{r=1}^nr)
+$$</span><script type="math/tex; mode=display">
+\sum_{r=1}^n\frac{r(r+1)(r+2)}{3\times 2\times 1}=\frac{1}{6}(\sum_{r=1}^nr^3+3\sum_{r=1}^nr^2+\sum_{r=1}^nr)
+</script>
+</div>
+</p>
+<p>再将</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+\sum_{r=1}^nr&amp;=\frac{n(n+1)}{2}\\
+\sum_{r=1}^nr^2&amp;=\frac{1}{6}n(n+1)(2n+1)
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{r=1}^nr&=\frac{n(n+1)}{2}\\
+\sum_{r=1}^nr^2&=\frac{1}{6}n(n+1)(2n+1)
+\end{aligned}
+</script>
+</div>
+</p>
+<p>代入可得</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{r=1}^nr^3=\frac{1}{4}n^2(n+1)^2
+$$</span><script type="math/tex; mode=display">
+\sum_{r=1}^nr^3=\frac{1}{4}n^2(n+1)^2
+</script>
+</div>
+</p>
+<p>依此类推，在知道<span><span class="MathJax_Preview">\(\sum_{r=1}^nr,\sum_{r=1}^nr^2,\sum_{r=1}^nr^3,\cdots,\sum_{r=1}^nr^{m-1}\)</span><script type="math/tex">\sum_{r=1}^nr,\sum_{r=1}^nr^2,\sum_{r=1}^nr^3,\cdots,\sum_{r=1}^nr^{m-1}</script></span>的情况下，可求得<span><span class="MathJax_Preview">\(\sum_{r=1}^nr^m\)</span><script type="math/tex">\sum_{r=1}^nr^m</script></span></p>
+<p>相比于“因式分解”的方法，费马的计算方法简单、可执行，可以用于计算更高次的幂和；方法也非常具有启发性，呈现的一个完整的数学工作流程：先是类比、推广、猜想一般性结论，证明猜想，最后是成果的应用。</p>
+<hr/>
+<h2 id="_7">“逐差”与“递归”</h2>
+<hr/>
+<p>为简单起见，不妨记</p>
+<p>
+<div><span class="MathJax_Preview">$$
+T_m=\sum_{i=1}^ni^m=1^m+2^m+\cdots+n^m
+$$</span><script type="math/tex; mode=display">
+T_m=\sum_{i=1}^ni^m=1^m+2^m+\cdots+n^m
+</script>
+</div>
+</p>
+<p>而显然的（等差数列）：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+T_1=\sum_{i=1}^ni=1+2+\cdots+n=\frac{n(n+1)}{2}
+$$</span><script type="math/tex; mode=display">
+T_1=\sum_{i=1}^ni=1+2+\cdots+n=\frac{n(n+1)}{2}
+</script>
+</div>
+</p>
+<h3 id="m3m3_2"><span><span class="MathJax_Preview">\(m=3\)</span><script type="math/tex">m=3</script></span>：逐差</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{cases}
+(n+1)^3-n^3=3n^2+3n+1\\
+n^3-(n-1)^3=3(n-1)^2+3(n-1)+1\\
+\cdots\\
+2^3-1^3=3\times{1^2}+3\times{1}+1
+\end{cases}
+$$</span><script type="math/tex; mode=display">
+\begin{cases}
+(n+1)^3-n^3=3n^2+3n+1\\
+n^3-(n-1)^3=3(n-1)^2+3(n-1)+1\\
+\cdots\\
+2^3-1^3=3\times{1^2}+3\times{1}+1
+\end{cases}
+</script>
+</div>
+</p>
+<h3 id="m3m3_3"><span><span class="MathJax_Preview">\(m=3\)</span><script type="math/tex">m=3</script></span>：叠加</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+(n+1)^3-1^3&amp;=3(1^2+2^2+\cdots+n^2)\\
+&amp;\quad{}+3(1+2+\cdots+n)+n\\
+&amp;=3T_2+3T_1+n\\
+\therefore\quad{T_2}&amp;=\frac{(n+1)^3-(n+1)}{3}-T_1\\
+\because\quad{T_1}&amp;=\frac{n(n+1)}{2}\\
+\therefore\quad{T_2}&amp;=\frac{n(n+1)(2n+1)}{6}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+(n+1)^3-1^3&=3(1^2+2^2+\cdots+n^2)\\
+&\quad{}+3(1+2+\cdots+n)+n\\
+&=3T_2+3T_1+n\\
+\therefore\quad{T_2}&=\frac{(n+1)^3-(n+1)}{3}-T_1\\
+\because\quad{T_1}&=\frac{n(n+1)}{2}\\
+\therefore\quad{T_2}&=\frac{n(n+1)(2n+1)}{6}
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="m4m4"><span><span class="MathJax_Preview">\(m=4\)</span><script type="math/tex">m=4</script></span>：逐差</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{cases}
+(n+1)^4-n^4=4n^3+6n^2+4n+1\\
+n^4-(n-1)^4=4(n-1)^3+6(n-1)^2+4(n-1)+1\\
+\cdots\\
+2^4-1^4=4\times{1^3}+6\times{1^2}+4\times{1}+1
+\end{cases}
+$$</span><script type="math/tex; mode=display">
+\begin{cases}
+(n+1)^4-n^4=4n^3+6n^2+4n+1\\
+n^4-(n-1)^4=4(n-1)^3+6(n-1)^2+4(n-1)+1\\
+\cdots\\
+2^4-1^4=4\times{1^3}+6\times{1^2}+4\times{1}+1
+\end{cases}
+</script>
+</div>
+</p>
+<h3 id="m4m4_1"><span><span class="MathJax_Preview">\(m=4\)</span><script type="math/tex">m=4</script></span>：叠加</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+(n+1)^4-1^4&amp;=4(1^3+2^3+\cdots+n^3)+6(1^2+2^2+\cdots+n^2)\\
+&amp;\quad{}+4(1+2+\cdots+n)+n\\
+&amp;=4T_3+6T_2+4T_1+n\\
+\therefore\quad{T_3}&amp;=\frac{(n+1)^4-(n+1)-6T_2-4T_1}{4}\\
+\because\quad{T_1}&amp;=\frac{n(n+1)}{2}\quad T_2=\frac{n(n+1)(2n+1)}{6}\\
+\therefore\quad{T_3}&amp;=\frac{n^2(n+1)^2}{4}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+(n+1)^4-1^4&=4(1^3+2^3+\cdots+n^3)+6(1^2+2^2+\cdots+n^2)\\
+&\quad{}+4(1+2+\cdots+n)+n\\
+&=4T_3+6T_2+4T_1+n\\
+\therefore\quad{T_3}&=\frac{(n+1)^4-(n+1)-6T_2-4T_1}{4}\\
+\because\quad{T_1}&=\frac{n(n+1)}{2}\quad T_2=\frac{n(n+1)(2n+1)}{6}\\
+\therefore\quad{T_3}&=\frac{n^2(n+1)^2}{4}
+\end{aligned}
+</script>
+</div>
+</p>
+<hr/>
+<h2 id="_8">二项式定理</h2>
+<hr/>
+<p>灵感来自于上面的方法，去寻找递推关系？重新记</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{M_r(n)=\sum_{k=1}^nk^r=?\qquad r\in N}
+$$</span><script type="math/tex; mode=display">
+\boxed{M_r(n)=\sum_{k=1}^nk^r=?\qquad r\in N}
+</script>
+</div>
+</p>
+<p>易知：<span><span class="MathJax_Preview">\(M_0(n)=n,M_1(n)=\frac{n(n+1)}{2}\)</span><script type="math/tex">M_0(n)=n,M_1(n)=\frac{n(n+1)}{2}</script></span></p>
+<p>此时，自然数幂和问题可以视为数列。那么，接下来就是寻找<span><span class="MathJax_Preview">\(M_r\)</span><script type="math/tex">M_r</script></span>的递推关系式？</p>
+<h3 id="_9">突破口</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+M_r(n)-M_r(n+1)=-(n+1)^r
+$$</span><script type="math/tex; mode=display">
+M_r(n)-M_r(n+1)=-(n+1)^r
+</script>
+</div>
+</p>
+<p>【<strong>期望</strong>】</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{M_r \overset{?}{=} f(M_0,M_1,M_2,\cdots,M_{r-1})}
+$$</span><script type="math/tex; mode=display">
+\boxed{M_r \overset{?}{=} f(M_0,M_1,M_2,\cdots,M_{r-1})}
+</script>
+</div>
+</p>
+<p>二项式定理:</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{(a+b)^n=\sum_{k=0}^nC_n^ka^{n-k}b^k}
+$$</span><script type="math/tex; mode=display">
+\boxed{(a+b)^n=\sum_{k=0}^nC_n^ka^{n-k}b^k}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+\sum_{k=1}^{n}\left[k^{r}-(k+1)^{r}\right] &amp;=\sum_{k=1}^{n}\left[k^{r}-\sum_{m=0}^{r}C_r^m k^{m}\right]=-\sum_{k=1}^{n} \sum_{m=0}^{r-1}C_r^m k^{m} \\
+&amp;=-\sum_{m=0}^{r-1}C_r^m \sum_{k=1}^{n} k^{m} =-\sum_{m=0}^{r-1}C_r^m M_{m}(n) \\
+&amp;=-\sum_{m=0}^{r-2}C_r^m M_{m}(n)-r M_{r-1}(n)
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{k=1}^{n}\left[k^{r}-(k+1)^{r}\right] &=\sum_{k=1}^{n}\left[k^{r}-\sum_{m=0}^{r}C_r^m k^{m}\right]=-\sum_{k=1}^{n} \sum_{m=0}^{r-1}C_r^m k^{m} \\
+&=-\sum_{m=0}^{r-1}C_r^m \sum_{k=1}^{n} k^{m} =-\sum_{m=0}^{r-1}C_r^m M_{m}(n) \\
+&=-\sum_{m=0}^{r-2}C_r^m M_{m}(n)-r M_{r-1}(n)
+\end{aligned}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{k=1}^{n}\left[k^{r}-(k+1)^{r}\right]=\sum_{k=1}^{n} k^{r}-\sum_{k=2}^{n+1} k^{r}=1-(n+1)^{r}
+$$</span><script type="math/tex; mode=display">
+\sum_{k=1}^{n}\left[k^{r}-(k+1)^{r}\right]=\sum_{k=1}^{n} k^{r}-\sum_{k=2}^{n+1} k^{r}=1-(n+1)^{r}
+</script>
+</div>
+</p>
+<p>联立上面的两个式子，可得：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+M_{r-1}(n) =\frac{(n+1)^{r}-1}{r}-\sum_{m=0}^{r-2} \frac{(r-1) !}{m !(r-m) !} M_{m}(n)
+$$</span><script type="math/tex; mode=display">
+M_{r-1}(n) =\frac{(n+1)^{r}-1}{r}-\sum_{m=0}^{r-2} \frac{(r-1) !}{m !(r-m) !} M_{m}(n)
+</script>
+</div>
+</p>
+<p>因此得到递推关系式：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+$$</span><script type="math/tex; mode=display">
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+</script>
+</div>
+</p>
+<h3 id="_10">应用</h3>
+<p>应用递推关系式</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+M_{2}(n) &amp;=\frac{(n+1)^{2+1}-1}{2+1}-\sum_{m=0}^{2-1} \frac{2 !}{m !(2+1-m) !} M_{m}(n) \\
+&amp;=\frac{(n+1)^{3}-1}{3}-\sum_{m=0}^{1} \frac{2}{m !(3-m) !} M_{m}(n) \\
+&amp;=\frac{n^{3}+3 n^{2}+3 n}{3}-\frac{2}{3 !} M_{0}(n)-\frac{2}{2 !} M_{1}(n) 
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+M_{2}(n) &=\frac{(n+1)^{2+1}-1}{2+1}-\sum_{m=0}^{2-1} \frac{2 !}{m !(2+1-m) !} M_{m}(n) \\
+&=\frac{(n+1)^{3}-1}{3}-\sum_{m=0}^{1} \frac{2}{m !(3-m) !} M_{m}(n) \\
+&=\frac{n^{3}+3 n^{2}+3 n}{3}-\frac{2}{3 !} M_{0}(n)-\frac{2}{2 !} M_{1}(n) 
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="_11">小结</h3>
+<ul>
+<li>递推关系：</li>
+</ul>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+$$</span><script type="math/tex; mode=display">
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+</script>
+</div>
+</p>
+<ul>
+<li>计算<span><span class="MathJax_Preview">\(M_r(n)\)</span><script type="math/tex">M_r(n)</script></span>，依赖<span><span class="MathJax_Preview">\(M_0(n),M_1(n),\cdots,M_{r-1}(n)\)</span><script type="math/tex">M_0(n),M_1(n),\cdots,M_{r-1}(n)</script></span>，计算量仍然很大！</li>
+</ul>
+<hr/>
+<h2 id="_12">线性方程组</h2>
+<p>观察以下具体的结果：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+1+2+3+4+\cdots+n&amp;=\frac{1}{2}n^2+\frac{1}{2}n\\
+1^2+2^2+3^2+4^2+\cdots+n^2&amp;=\frac{1}{3}n^3+\frac{1}{2}n^2+\frac{1}{6}n\\
+1^3+2^3+3^3+4^3+\cdots+n^3&amp;=\frac{1}{4}n^4+\frac{1}{2}n^3+\frac{1}{4}n^2
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+1+2+3+4+\cdots+n&=\frac{1}{2}n^2+\frac{1}{2}n\\
+1^2+2^2+3^2+4^2+\cdots+n^2&=\frac{1}{3}n^3+\frac{1}{2}n^2+\frac{1}{6}n\\
+1^3+2^3+3^3+4^3+\cdots+n^3&=\frac{1}{4}n^4+\frac{1}{2}n^3+\frac{1}{4}n^2
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="_13">猜想</h3>
+<p>通过观察前面的计算结果，不难发现：计算结果是一个<span><span class="MathJax_Preview">\(m+1\)</span><script type="math/tex">m+1</script></span>次多项式。因此做出猜想：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^m+2^m+3^m+\cdots+n^m=a_{m+1}n^{m+1}+a_mn^m+\cdots+a_1n+a_0
+$$</span><script type="math/tex; mode=display">
+1^m+2^m+3^m+\cdots+n^m=a_{m+1}n^{m+1}+a_mn^m+\cdots+a_1n+a_0
+</script>
+</div>
+</p>
+<p>关于猜想的分析，确保猜想的正确性，猜想结果中系数的确定？</p>
+<p>对于上述多项式方程，分别把<span><span class="MathJax_Preview">\(n=1,2,3,\cdots,m+1\)</span><script type="math/tex">n=1,2,3,\cdots,m+1</script></span>带入，得一线性方程组。问题转化为线性方程组的求解问题。</p>
+<h3 id="_14">猜想的计算和证明</h3>
+<p>对于得到的线性方程组，可描述为：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\mathbf{AX}=\mathbf{B}
+$$</span><script type="math/tex; mode=display">
+\mathbf{AX}=\mathbf{B}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\mathbf{A}=
+\left(\begin{array}{ccccc}
+1&amp;1&amp;1&amp;\ldots&amp;1\\
+1&amp;2&amp;2^2&amp;\ldots&amp;2^{m+1}\\
+\vdots&amp;\vdots&amp;\vdots&amp;\ddots&amp;\vdots\\
+1&amp;m+2&amp;(m+2)^2&amp;\ldots&amp;(m+2)^{m+1}
+\end{array}\right)
+$$</span><script type="math/tex; mode=display">
+\mathbf{A}=
+\left(\begin{array}{ccccc}
+1&1&1&\ldots&1\\
+1&2&2^2&\ldots&2^{m+1}\\
+\vdots&\vdots&\vdots&\ddots&\vdots\\
+1&m+2&(m+2)^2&\ldots&(m+2)^{m+1}
+\end{array}\right)
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\mathbf{X}^{T}=
+\left(\begin{array}{ccccc}
+a_0&amp;a_1&amp;a_2&amp;\ldots&amp;a_{m+1}
+\end{array}\right)
+$$</span><script type="math/tex; mode=display">
+\mathbf{X}^{T}=
+\left(\begin{array}{ccccc}
+a_0&a_1&a_2&\ldots&a_{m+1}
+\end{array}\right)
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\mathbf{B}^{T}=
+\left(\begin{array}{ccccc}
+1&amp;1+2^m&amp;1+2^m+3^m&amp;\ldots&amp;\sum_{i=1}^{m+1}(i^m)
+\end{array}\right)
+$$</span><script type="math/tex; mode=display">
+\mathbf{B}^{T}=
+\left(\begin{array}{ccccc}
+1&1+2^m&1+2^m+3^m&\ldots&\sum_{i=1}^{m+1}(i^m)
+\end{array}\right)
+</script>
+</div>
+</p>
+<h3 id="_15">证明</h3>
+<ul>
+<li>
+<p>观察方程，<span><span class="MathJax_Preview">\(\mathbf{A}^{T}\)</span><script type="math/tex">\mathbf{A}^{T}</script></span>不正是“范德蒙行列式”么！</p>
+</li>
+<li>
+<p><span><span class="MathJax_Preview">\(1,2,3,\cdots,m+1\)</span><script type="math/tex">1,2,3,\cdots,m+1</script></span>是互不相等的，于是可以肯定矩阵<span><span class="MathJax_Preview">\(\mathbf{A}\)</span><script type="math/tex">\mathbf{A}</script></span>满秩;</p>
+</li>
+<li>
+<p>方程组存在唯一解，解方程可求出系数<span><span class="MathJax_Preview">\(a_0,a_1,a_2,\cdots,a_{m+1}\)</span><script type="math/tex">a_0,a_1,a_2,\cdots,a_{m+1}</script></span>。</p>
+</li>
+</ul>
+<p>关于“范德蒙行列式”，请参考后面的“附录”。</p>
+<hr/>
+<h2 id="stolz">Stolz定理</h2>
+<p>继续考虑“多项式的系数”的确定方法：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+1^m+2^m+3^m+\cdots+n^m=a_{m+1}n^{m+1}+a_mn^m+\cdots+a_1n+a_0
+$$</span><script type="math/tex; mode=display">
+1^m+2^m+3^m+\cdots+n^m=a_{m+1}n^{m+1}+a_mn^m+\cdots+a_1n+a_0
+</script>
+</div>
+</p>
+<p>不同于线性方程组方法，换一个方向，取<span><span class="MathJax_Preview">\(n\)</span><script type="math/tex">n</script></span>无穷大，从而引入极限，将系数的确定转化为极限计算！</p>
+<p>两边同时除以<span><span class="MathJax_Preview">\(n^{m+1}\)</span><script type="math/tex">n^{m+1}</script></span>，有</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\frac{1^m+2^m+3^m+\cdots+n^m}{n^{m+1}}=a_{m+1}+\frac{a_mn^m+\cdots+a_1n+a_0}{n^{m+1}}
+$$</span><script type="math/tex; mode=display">
+\frac{1^m+2^m+3^m+\cdots+n^m}{n^{m+1}}=a_{m+1}+\frac{a_mn^m+\cdots+a_1n+a_0}{n^{m+1}}
+</script>
+</div>
+</p>
+<h3 id="_16">取极限</h3>
+<p>两边取极限，使用Stolz定理：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+    a_{m+1} &amp;=\lim\limits_{n\rightarrow\infty}\frac{1^m+2^m+3^m+\cdots+n^m}{n^{m+1}}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{n^m}{n^{m+1}-(n-1)^{m+1}}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{1}{1+\frac{n-1}{n}+\cdots+(\frac{n-1}{n})^m}=\frac{1}{m+1}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+    a_{m+1} &=\lim\limits_{n\rightarrow\infty}\frac{1^m+2^m+3^m+\cdots+n^m}{n^{m+1}}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{n^m}{n^{m+1}-(n-1)^{m+1}}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{1}{1+\frac{n-1}{n}+\cdots+(\frac{n-1}{n})^m}=\frac{1}{m+1}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>把<span><span class="MathJax_Preview">\(a_{m+1}=\frac{1}{m+1}\)</span><script type="math/tex">a_{m+1}=\frac{1}{m+1}</script></span>带入，移到左边整理得：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\frac{1^m+2^m+3^m+\cdots+n^m-\frac{n^{m+1}}{m+1}}{n^{m}}=a_{m}+\frac{a_{m-1}n^{m-1}+\cdots+a_1n+a_0}{n^m}
+$$</span><script type="math/tex; mode=display">
+\frac{1^m+2^m+3^m+\cdots+n^m-\frac{n^{m+1}}{m+1}}{n^{m}}=a_{m}+\frac{a_{m-1}n^{m-1}+\cdots+a_1n+a_0}{n^m}
+</script>
+</div>
+</p>
+<p>两边取极限，得</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+    a_{m} &amp;=\lim\limits_{n\rightarrow\infty}\frac{1^m+2^m+3^m+\cdots+n^m-\frac{n^{m+1}}{m+1}}{n^{m}}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{n^m-\frac{n^{m+1}}{m+1}+\frac{(n-1)^{m+1}}{m+1}}{n^m-(n-1)^m}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{-\sum_{k=2}^{m+1}C_{m+1}^k(-1)^kn^(m+1-k)}{(m+1)\sum_{k=1}^{m}C_{m}^k(-1)^kn^(m-k)}\\
+&amp;=\frac{1}{2}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+    a_{m} &=\lim\limits_{n\rightarrow\infty}\frac{1^m+2^m+3^m+\cdots+n^m-\frac{n^{m+1}}{m+1}}{n^{m}}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{n^m-\frac{n^{m+1}}{m+1}+\frac{(n-1)^{m+1}}{m+1}}{n^m-(n-1)^m}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{-\sum_{k=2}^{m+1}C_{m+1}^k(-1)^kn^(m+1-k)}{(m+1)\sum_{k=1}^{m}C_{m}^k(-1)^kn^(m-k)}\\
+&=\frac{1}{2}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>继续上面的过程，直至求出<span><span class="MathJax_Preview">\(a_{m+1},a_m,\cdots,a_1,a_0\)</span><script type="math/tex">a_{m+1},a_m,\cdots,a_1,a_0</script></span>。</p>
+<h3 id="m2m2_2">重新计算：<span><span class="MathJax_Preview">\(m=2\)</span><script type="math/tex">m=2</script></span></h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+a_3 &amp;=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2}{n^{3}}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{n^2}{n^{3}-(n-1)^3}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{n^2}{3n^2-3n+1}=\frac{1}{3}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+a_3 &=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2}{n^{3}}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{n^2}{n^{3}-(n-1)^3}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{n^2}{3n^2-3n+1}=\frac{1}{3}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+a_2 &amp;=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2-a_3n^3}{n^{2}}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{n^2-\frac{1}{3}n^3+\frac{1}{3}(n-1)^3}{n^2-(n-1)^2}\\
+&amp;=\lim\limits_{n\rightarrow\infty}\frac{3n-1}{3(2n-1)}=\frac{1}{2}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+a_2 &=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2-a_3n^3}{n^{2}}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{n^2-\frac{1}{3}n^3+\frac{1}{3}(n-1)^3}{n^2-(n-1)^2}\\
+&=\lim\limits_{n\rightarrow\infty}\frac{3n-1}{3(2n-1)}=\frac{1}{2}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+a_1 &amp;=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2-an^3-bn^2}{n}\\
+&amp;=\lim\limits_{n\rightarrow\infty}[n^2-\frac{1}{3}n^3-\frac{1}{2}(n-1)^3+\frac{1}{2}(n-1)^2]\\
+&amp;=\frac{1}{6}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+a_1 &=\lim\limits_{n\rightarrow\infty}\frac{1^2+2^2+3^2+\cdots+n^2-an^3-bn^2}{n}\\
+&=\lim\limits_{n\rightarrow\infty}[n^2-\frac{1}{3}n^3-\frac{1}{2}(n-1)^3+\frac{1}{2}(n-1)^2]\\
+&=\frac{1}{6}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>把<span><span class="MathJax_Preview">\(a_1,a_2,a_3,n=1\)</span><script type="math/tex">a_1,a_2,a_3,n=1</script></span>带入方程，求得<span><span class="MathJax_Preview">\(a_0\)</span><script type="math/tex">a_0</script></span>。用同样的方法可以计算：<span><span class="MathJax_Preview">\(m=4,5,\cdots\)</span><script type="math/tex">m=4,5,\cdots</script></span></p>
+<hr/>
+<h2 id="_17">母函数方法</h2>
+<hr/>
+<p>方法的着手点，仍然是将自然数幂和看作数列，求得数列的母函数后，再找到数列的递推关系！首先，简单看一下“生成函数”的概念。</p>
+<h2 id="_18">母函数(生成函数)</h2>
+<p>对于任意的数列<span><span class="MathJax_Preview">\(a_0,a_1,a_2,\cdots,a_n\)</span><script type="math/tex">a_0,a_1,a_2,\cdots,a_n</script></span>，通过下面的函数联系：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+G(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n
+$$</span><script type="math/tex; mode=display">
+G(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n
+</script>
+</div>
+</p>
+<p>则称<span><span class="MathJax_Preview">\(G(x)\)</span><script type="math/tex">G(x)</script></span>为数列的生成函数。 <strong>普通型</strong>母函数与<strong>指数型</strong>母函数的一般形式分别为：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+G(a_n;x)=\sum_{n=0}^{\infty}a_nx^n\qquad EG(a_n;x)=\sum_{n=0}^{\infty}\frac{a_n}{n!}x^n
+$$</span><script type="math/tex; mode=display">
+G(a_n;x)=\sum_{n=0}^{\infty}a_nx^n\qquad EG(a_n;x)=\sum_{n=0}^{\infty}\frac{a_n}{n!}x^n
+</script>
+</div>
+</p>
+<h3 id="_19">母函数的用途</h3>
+<blockquote>
+<p>最早提出母函数的人是法国数学家Laplace在其1812年出版的《概率的分析理论》中明确提出“生成函数的计算”，书中对生成函数思想奠基人——Euler在18世纪对自然数的分解与合成的研究做了延伸与发展。生成函数的理论由此基本建立。</p>
+</blockquote>
+<p>生成函数主要用于解决某些复杂的组合问题，也可以用于研究数列规律，根据递推式求出数列的通项：</p>
+<ul>
+<li>
+<p>普通型母函数适用于求解线性常系数递推关系；</p>
+</li>
+<li>
+<p>指数型母函数适用于非线性的递推关系。</p>
+</li>
+</ul>
+<h3 id="_20">线性递推</h3>
+<p>数列<span><span class="MathJax_Preview">\(a_n=p\cdot a_{n-1}+q,\quad a_0=a,\quad(p,q\in R)\)</span><script type="math/tex">a_n=p\cdot a_{n-1}+q,\quad a_0=a,\quad(p,q\in R)</script></span>，求通项。</p>
+<p>数列的母函数：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+    s(x)&amp;=\sum_{i=0}^\infty a_ix^i=a+\sum_{i=1}^\infty a_ix^i=a+\sum_{i=1}^\infty (pa_{i-1}+q)x^i\\
+&amp;=a+x\sum_{i=0}^\infty (pa_i+q)x^i=a+px\sum_{i=0}^\infty a_ix^i+qx\sum_{i=0}^\infty x^i\\
+&amp;=a+p\cdot xs(x)+\frac{qx}{1-x}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+    s(x)&=\sum_{i=0}^\infty a_ix^i=a+\sum_{i=1}^\infty a_ix^i=a+\sum_{i=1}^\infty (pa_{i-1}+q)x^i\\
+&=a+x\sum_{i=0}^\infty (pa_i+q)x^i=a+px\sum_{i=0}^\infty a_ix^i+qx\sum_{i=0}^\infty x^i\\
+&=a+p\cdot xs(x)+\frac{qx}{1-x}
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="_21">化归</h3>
+<p>自然数幂和问题，转化为求数列通项的问题：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+$$</span><script type="math/tex; mode=display">
+\boxed{M_{r}(n) =\frac{(n+1)^{r+1}-1}{r+1}-\sum_{m=0}^{r-1} \frac{r !}{m !(r+1-m) !} M_{m}(n)}
+</script>
+</div>
+</p>
+<p>针对数列：<span><span class="MathJax_Preview">\(M_r(n)=\sum_{k=1}^nk^r\)</span><script type="math/tex">M_r(n)=\sum_{k=1}^nk^r</script></span>，考虑其指数型母函数：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+f(M_{r}(n) ; x) \triangleq \sum_{r=0}^{\infty} \frac{M_{r}(n)}{r !} x^{r}
+$$</span><script type="math/tex; mode=display">
+f(M_{r}(n) ; x) \triangleq \sum_{r=0}^{\infty} \frac{M_{r}(n)}{r !} x^{r}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+f(M_{r}(n) ; x) =\sum_{r=0}^{\infty} \frac{x^{r}}{r !} \sum_{k=1}^{n} k^{r} =\sum_{k=1}^{n} \sum_{r=0}^{\infty} \frac{(k x)^{r}}{r !}
+$$</span><script type="math/tex; mode=display">
+f(M_{r}(n) ; x) =\sum_{r=0}^{\infty} \frac{x^{r}}{r !} \sum_{k=1}^{n} k^{r} =\sum_{k=1}^{n} \sum_{r=0}^{\infty} \frac{(k x)^{r}}{r !}
+</script>
+</div>
+</p>
+<p>指数函数展开式</p>
+<p>
+<div><span class="MathJax_Preview">$$
+e^x=\sum_{k=0}^{\infty}\frac{x^k}{k!}
+$$</span><script type="math/tex; mode=display">
+e^x=\sum_{k=0}^{\infty}\frac{x^k}{k!}
+</script>
+</div>
+</p>
+<p>所以</p>
+<p>
+<div><span class="MathJax_Preview">$$
+f(M_{r}(n) ; x)=\sum_{k=1}^{n} e^{k x}=e^{x} \sum_{m=0}^{n-1} e^{m x}
+=e^{x} \cdot \frac{e^{n x}-1}{e^{x}-1}=\frac{1-e^{n x}}{e^{-x}-1}
+$$</span><script type="math/tex; mode=display">
+f(M_{r}(n) ; x)=\sum_{k=1}^{n} e^{k x}=e^{x} \sum_{m=0}^{n-1} e^{m x}
+=e^{x} \cdot \frac{e^{n x}-1}{e^{x}-1}=\frac{1-e^{n x}}{e^{-x}-1}
+</script>
+</div>
+</p>
+<h3 id="m_rnm_rn">计算：<span><span class="MathJax_Preview">\(M_r(n)\)</span><script type="math/tex">M_r(n)</script></span></h3>
+<p>
+<div><span class="MathJax_Preview">$$
+M_{r}(n)=\lim _{x \rightarrow 0} f^{(r)}(M_{r}(n) ; x))=\lim _{x \rightarrow 0} \frac{\mathrm{d}^{r}}{\mathrm{~d} x^{r}}\left[\frac{1-e^{n x}}{e^{-x}-1}\right]
+$$</span><script type="math/tex; mode=display">
+M_{r}(n)=\lim _{x \rightarrow 0} f^{(r)}(M_{r}(n) ; x))=\lim _{x \rightarrow 0} \frac{\mathrm{d}^{r}}{\mathrm{~d} x^{r}}\left[\frac{1-e^{n x}}{e^{-x}-1}\right]
+</script>
+</div>
+</p>
+<p>例如：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+M_{1}(n)=\lim _{x \rightarrow 0} \frac{\mathrm{d}}{\mathrm{d} x}\left[\frac{1-e^{n x}}{e^{-x}-1}\right]=\frac{n(n+1)}{2}
+$$</span><script type="math/tex; mode=display">
+M_{1}(n)=\lim _{x \rightarrow 0} \frac{\mathrm{d}}{\mathrm{d} x}\left[\frac{1-e^{n x}}{e^{-x}-1}\right]=\frac{n(n+1)}{2}
+</script>
+</div>
+</p>
+<p>然而，对于该函数的求导问题仍然是一个繁琐的工作！再找一个更简洁的方法！</p>
+<hr/>
+<h2 id="_22">伯努利数</h2>
+<p>伯努利数的定义</p>
+<p>
+<div><span class="MathJax_Preview">$$
+B_{n}=\lim\limits_{x \rightarrow 0} \frac{\mathrm{d}^{n}}{\mathrm{~d} x^{n}}\left[\frac{x}{e^{x}-1}\right]
+$$</span><script type="math/tex; mode=display">
+B_{n}=\lim\limits_{x \rightarrow 0} \frac{\mathrm{d}^{n}}{\mathrm{~d} x^{n}}\left[\frac{x}{e^{x}-1}\right]
+</script>
+</div>
+</p>
+<h3 id="m_rnm_rn_1"><span><span class="MathJax_Preview">\(M_r(n)\)</span><script type="math/tex">M_r(n)</script></span>母函数</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+\frac{1-e^{n x}}{e^{-x}-1} &amp;=\frac{e^{n x}-1}{x} \cdot \frac{-x}{e^{-x}-1} \\
+&amp;=\frac{e^{n x}-1}{x} \sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k} \\
+&amp;=\left(\sum_{m=1}^{\infty} \frac{n^{m}}{m !} x^{m-1}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right)
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+\frac{1-e^{n x}}{e^{-x}-1} &=\frac{e^{n x}-1}{x} \cdot \frac{-x}{e^{-x}-1} \\
+&=\frac{e^{n x}-1}{x} \sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k} \\
+&=\left(\sum_{m=1}^{\infty} \frac{n^{m}}{m !} x^{m-1}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right)
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="_23">柯西乘积</h3>
+<p>对于两个级数<span><span class="MathJax_Preview">\(\sum_{n=0}^{\infty} a_{n}\)</span><script type="math/tex">\sum_{n=0}^{\infty} a_{n}</script></span>和<span><span class="MathJax_Preview">\(\sum_{n=0}^{\infty} b_{n}\)</span><script type="math/tex">\sum_{n=0}^{\infty} b_{n}</script></span>，有</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\boxed{\left(\sum_{n=0}^{\infty} a_{n}\right)\left(\sum_{n=0}^{\infty} b_{n}\right)=\sum_{n=0}^{\infty}\left(\sum_{m=0}^{n} a_{m} b_{n-m}\right)}
+$$</span><script type="math/tex; mode=display">
+\boxed{\left(\sum_{n=0}^{\infty} a_{n}\right)\left(\sum_{n=0}^{\infty} b_{n}\right)=\sum_{n=0}^{\infty}\left(\sum_{m=0}^{n} a_{m} b_{n-m}\right)}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+\left(\sum_{m=1}^{\infty} \frac{n^{m}}{m !} x^{m-1}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right) &amp;=\left(\sum_{m=0}^{\infty} \frac{n^{m+1}}{(m+1) !} x^{m}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right) \\
+&amp; \Rightarrow \sum_{r=0}^{\infty}\left(\sum_{m=0}^{r} \frac{(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !}\right) x^{r} \\
+&amp;=\sum_{r=0}^{\infty}\left(\sum_{m=0}^{r} \frac{r !(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !}\right) \frac{x^{r}}{r !}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+\left(\sum_{m=1}^{\infty} \frac{n^{m}}{m !} x^{m-1}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right) &=\left(\sum_{m=0}^{\infty} \frac{n^{m+1}}{(m+1) !} x^{m}\right)\left(\sum_{k=0}^{\infty} \frac{(-1)^{k} B_{k}}{k !} x^{k}\right) \\
+& \Rightarrow \sum_{r=0}^{\infty}\left(\sum_{m=0}^{r} \frac{(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !}\right) x^{r} \\
+&=\sum_{r=0}^{\infty}\left(\sum_{m=0}^{r} \frac{r !(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !}\right) \frac{x^{r}}{r !}
+\end{aligned}
+</script>
+</div>
+</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\begin{aligned}
+M_{r}(n) &amp;=\sum_{m=0}^{r} \frac{r !(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !} \\
+&amp;=\sum_{m=0}^{r} \frac{r !}{m !(r+1-m) !}(-1)^{m} B_{m} n^{r+1-m} \\
+&amp;=\frac{1}{r+1} \sum_{m=0}^{r} \frac{(r+1) !}{m ![(r+1)-m] !}(-1)^{m} B_{m} n^{r+1-m} \\
+&amp;=\frac{1}{r+1} \sum_{m=0}^{r}C_{r+1}^m(-1)^{m} B_{m} n^{r+1-m}
+\end{aligned}
+$$</span><script type="math/tex; mode=display">
+\begin{aligned}
+M_{r}(n) &=\sum_{m=0}^{r} \frac{r !(-1)^{m} B_{m} n^{r-m+1}}{m !(r-m+1) !} \\
+&=\sum_{m=0}^{r} \frac{r !}{m !(r+1-m) !}(-1)^{m} B_{m} n^{r+1-m} \\
+&=\frac{1}{r+1} \sum_{m=0}^{r} \frac{(r+1) !}{m ![(r+1)-m] !}(-1)^{m} B_{m} n^{r+1-m} \\
+&=\frac{1}{r+1} \sum_{m=0}^{r}C_{r+1}^m(-1)^{m} B_{m} n^{r+1-m}
+\end{aligned}
+</script>
+</div>
+</p>
+<h3 id="faulhaber">Faulhaber公式</h3>
+<p>
+<div><span class="MathJax_Preview">$$
+\sum_{k=1}^{n} k^{r}=\frac{1}{r+1} \sum_{m=0}^{r}C_{r+1}^m(-1)^{m} B_{m} n^{r+1-m}
+$$</span><script type="math/tex; mode=display">
+\sum_{k=1}^{n} k^{r}=\frac{1}{r+1} \sum_{m=0}^{r}C_{r+1}^m(-1)^{m} B_{m} n^{r+1-m}
+</script>
+</div>
+</p>
+<p>其中<span><span class="MathJax_Preview">\(B_m\)</span><script type="math/tex">B_m</script></span>为伯努利数。</p>
+<hr/>
+<h2 id="_24">附录</h2>
+<hr/>
+<h3 id="_25">范德蒙行列式</h3>
+<p>范德蒙行列式形如：</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\left|\begin{array}{cccc}
+1&amp;1&amp;\ldots&amp;1\\
+x_1&amp;x_2&amp;\ldots&amp;x_n\\
+\vdots&amp;\vdots&amp;\ddots&amp;\vdots\\
+x_1^{n-1}&amp;x_2^{n-1}&amp;\ldots&amp;x_n^{n-1}
+\end{array}\right|=\prod_{1\leq{j}&lt;{i}\leq{n}}(x_i-x_j)
+$$</span><script type="math/tex; mode=display">
+\left|\begin{array}{cccc}
+1&1&\ldots&1\\
+x_1&x_2&\ldots&x_n\\
+\vdots&\vdots&\ddots&\vdots\\
+x_1^{n-1}&x_2^{n-1}&\ldots&x_n^{n-1}
+\end{array}\right|=\prod_{1\leq{j}<{i}\leq{n}}(x_i-x_j)
+</script>
+</div>
+</p>
+<h2 id="stolz_1">Stolz定理</h2>
+<p>设<span><span class="MathJax_Preview">\(\{x_{n}\}\)</span><script type="math/tex">\{x_{n}\}</script></span>和<span><span class="MathJax_Preview">\(\{y_{n}\}\)</span><script type="math/tex">\{y_{n}\}</script></span>是两个数列，其中<span><span class="MathJax_Preview">\({x_{n}}\)</span><script type="math/tex">{x_{n}}</script></span>是严格递增，且</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\lim\limits_{n\rightarrow\infty}x_n=+\infty
+$$</span><script type="math/tex; mode=display">
+\lim\limits_{n\rightarrow\infty}x_n=+\infty
+</script>
+</div>
+</p>
+<p>如果</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\lim\limits_{n\rightarrow\infty}\frac{y_{n}-y_{n-1}}{x_{n}-x_{n-1}}=A
+$$</span><script type="math/tex; mode=display">
+\lim\limits_{n\rightarrow\infty}\frac{y_{n}-y_{n-1}}{x_{n}-x_{n-1}}=A
+</script>
+</div>
+</p>
+<p>则</p>
+<p>
+<div><span class="MathJax_Preview">$$
+\lim\limits_{n\rightarrow\infty}\frac{y_{n}}{x_{n}}=A
+$$</span><script type="math/tex; mode=display">
+\lim\limits_{n\rightarrow\infty}\frac{y_{n}}{x_{n}}=A
+</script>
+</div>
+</p>
+<hr/></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            静态网站
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+
+</body>
+
+</html>
